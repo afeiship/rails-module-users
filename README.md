@@ -16,7 +16,7 @@
 ```rb
 User.create({
     username: 'afeiship',
-    password:'123456',
+    password:'123123',
     email: '1290657123@qq.com'
 });
 ```
