@@ -1,24 +1,13 @@
-# README
+# rails-module-users
+> Rails module for users.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## model
+> The users table fileds.
+| field           | type   | length | description               |
+| --------------- | ------ | ------ | ------------------------- |
+| username        | string | -      | unique user name          |
+| email           | string | -      | unique user email         |
+| password        | string | -      | unique user password(md5) |
+| password_digest | string | -      | unique user password(md5) |
+| access_token    | string | -      | for login                 |
