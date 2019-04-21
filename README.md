@@ -4,6 +4,7 @@
 
 ## model
 > The users table fileds.
+
 | field           | type   | length | description               |
 | --------------- | ------ | ------ | ------------------------- |
 | username        | string | -      | unique user name          |
